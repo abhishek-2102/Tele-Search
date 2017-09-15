@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tele Search",
+  "description": "Searches for tele numbers in a page",
+  "version": "1.0",
+	
+  "browser_action": {
+    "default_icon": "images/icon_12.png",
+   	"default_title": "Tele Search",
+	"default_popup":"popup.html"
+  }, 
+  "permissions": [
+	"notifications",
+    "activeTab",
+    "https://ajax.googleapis.com/",
+	"http://*.google.com/",
+	"https://*.google.com/",
+	"http://*/*",
+	"https://*/*"
+  ]
+}
